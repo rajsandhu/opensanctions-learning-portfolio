@@ -1,2 +1,8 @@
+# Ignore nested repos
 opensanctions/
 zavod/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
