@@ -1,20 +1,39 @@
 # OpenSanctions Learning Portfolio
 
-Hey! 👋 This is my personal playground for learning how to work with OpenSanctions and Zavod.
+This repository documents my learning and experimentation with web scraping, data processing, and building small crawlers in Python. It is meant to show my process, progress, and approach to problem-solving in a way that can be reviewed and understood by others.
 
-## What I’m Doing Here
+## Current Projects
 
-I’m using this repo to:
+- `example_csv_crawler.py`: A crawler that fetches CSV data from public sources, parses it, and prints or processes the results.  
+- Other experimental scripts and notes demonstrating my workflow and understanding of Python, HTTP requests, CSV handling, and basic data pipelines.
 
-- Try out writing crawlers in Python using Zavod.
-- Learn by doing, step by step, and track my progress.
-- Experiment with LLM tools (ChatGPT, Copilot) as a kind of coding buddy — helping me understand stuff instead of just copy-pasting.
+## Why I'm Doing This
 
-## What’s in the Repo
+I am building this portfolio to both learn and demonstrate my practical skills in data engineering.  
+The goal is to create a traceable, iterative learning path, showing my thought process and ability to tackle real-world datasets, including those relevant to OpenSanctions.
 
-- `portfolio/test_crawler.py` — my first small crawler script. Nothing fancy yet, but it’s where I’m learning how to fetch and structure sample data.
+## How I Work
+
+I use AI-assisted tools such as GitHub Copilot, ChatGPT, and Phind to explore solutions and clarify concepts quickly.  
+These tools accelerate learning, help me test ideas, and support writing maintainable code — but all work is understood and reviewed manually to ensure correctness.
+
+## How to Run
+
+```bash
+python example_csv_crawler.py
+```
+
+This will fetch the CSV data, parse it, and print the first few rows, demonstrating basic crawler functionality.
 
 ## Notes
 
-- The full `opensanctions` and `zavod` packages aren’t here — just my experiments.
-- Think of this as a learning diary that shows how I go from rusty Python to actually doing junior-level data crawling.
+This is a learning-focused repository, primarily aimed at showing my approach and progress.
+It is intended for review by the OpenSanctions team and anyone interested in my practical skills in data handling, web scraping, and Python development.
+
+## Next Steps
+
+Extend existing crawlers into full zavod-style scrapers for structured data ingestion.
+
+Experiment with more complex datasets, including JSON and API-based sources.
+
+Document lessons learned and improvements iteratively to show growth over time.
