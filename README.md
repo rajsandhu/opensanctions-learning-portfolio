@@ -1,30 +1,20 @@
-# OpenSanctions Dev Learning Repo
+# OpenSanctions Learning Portfolio
 
-This is my personal playground for exploring **OpenSanctions** and learning how to work with their Python-based data pipelines and crawler tools.
+Hey! 👋 This is my personal playground for learning how to work with OpenSanctions and Zavod.
 
-I’m going through the datasets and crawler tasks step by step, trying to understand how the code works, how the data is structured, and how everything comes together. The goal is to build skills that would help me contribute to the project and eventually demonstrate readiness for a **Junior Data Engineer** role.
+## What I’m Doing Here
 
-## What I’m doing here
+I’m using this repo to:
 
-- Running and experimenting with OpenSanctions crawlers.
-- Testing Python data pipelines.
-- Exploring and cleaning datasets.
-- Learning to structure crawlers and write new ones for additional sources.
+- Try out writing crawlers in Python using Zavod.
+- Learn by doing, step by step, and track my progress.
+- Experiment with LLM tools (ChatGPT, Copilot) as a kind of coding buddy — helping me understand stuff instead of just copy-pasting.
 
-## How I’m learning
+## What’s in the Repo
 
-I’m using **LLM tools** (GitHub Copilot, ChatGPT, etc.) extensively — but not just to copy code.  
-I use them in **dialogue**, asking questions, reasoning through errors, and deciding what changes to make.  
-The goal is to actually understand how the workflows, crawlers, and data models work — not just reproduce examples.
+- `portfolio/test_crawler.py` — my first small crawler script. Nothing fancy yet, but it’s where I’m learning how to fetch and structure sample data.
 
 ## Notes
 
-- This is a **learning repo**, so nothing here is production-ready.
-- All Python scripts are run in a virtual environment.
-- Data and archive folders are populated by running the crawlers locally.
-- I’m keeping track of errors, fixes, and lessons learned in commits and issues, so anyone can see my progress.
-
-## Disclaimer
-
-I’m doing this to learn and document my process.  
-This repo is **not affiliated with OpenSanctions**, but it uses their open-source framework for practice and exploration.
+- The full `opensanctions` and `zavod` packages aren’t here — just my experiments.
+- Think of this as a learning diary that shows how I go from rusty Python to actually doing junior-level data crawling.
