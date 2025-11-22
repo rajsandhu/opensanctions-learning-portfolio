@@ -1,6 +1,5 @@
-# Weekly Goals
-- Build a simple CSV crawler.
-- Build a simple HTML table crawler.
-- Convert one into a Zavod pipeline.
-- Make a useful forum post.
-- Prepare intro message to OpenSanctions team.
+# Learning Goals
+- Build a simple CSV crawler and understand fetch → parse → normalize workflow.
+- Build a simple HTML table crawler and practice parsing with BeautifulSoup.
+- Convert one of the crawlers into a Zavod pipeline format.
+- Post a thoughtful question on the OpenSanctions forum to clarify dataset practices.
