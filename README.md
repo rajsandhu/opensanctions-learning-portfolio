@@ -1,37 +1,44 @@
 # OpenSanctions Learning Portfolio
 
-This repository documents my learning and experimentation with web scraping, data processing, and building small crawlers in Python. It is meant to show my process, progress, and approach to problem-solving in a way that can be reviewed and understood by others, including the OpenSanctions community.
+This repository documents my learning and experimentation with web scraping, data processing, and building small crawlers in Python. It is designed to show my process, progress, and approach to problem-solving in a way that can be reviewed by others, including the OpenSanctions team.
 
-## Repository Structure
+## Current Projects
 
-- `notes/` — learning notes, research questions, and references.
-- `portfolio/` — working examples of crawlers built using Zavod and OpenSanctions frameworks.
-- `opensanctions/` — cloned OpenSanctions repository for reference (not tracked in this repo).
-- `zavod/` — cloned Zavod repository for reference (not tracked in this repo).
+The main portfolio folder contains my working scripts:
 
-## Current Projects in Portfolio
+- **example_csv_crawler.py** – Fetches CSV data from a public Berlin dataset, parses it, and prints the first few rows. Demonstrates basic crawler functionality with Python and HTTP requests.
+- **ihk_gewerbe_crawler.py** – Fetches CSV data from a GitHub repository of IHK Berlin business data. Shows CSV parsing and data inspection.
+- **test_crawler.py** – Simple script to demonstrate Zavod-based crawler structure.
 
-- `example_csv_crawler.py`: Fetches CSV data from public sources, parses it, and prints or processes the results.
-- `ihk_gewerbe_crawler.py`: Extracts publicly available business registration data from IHK sources.
-- `test_crawler.py`: Sandbox/testing crawler for experimenting with parsing logic and new sources.
+## Why I'm Doing This
 
-## Goals
-
-- Learn and demonstrate practical skills in data engineering and web scraping.
-- Build Zavod-style crawlers for structured data ingestion.
-- Create a traceable, iterative learning path showing thought process and problem-solving approach.
+This portfolio is meant to demonstrate my practical skills in Python, data handling, web scraping, and building simple crawlers. The goal is to create a traceable, iterative learning path showing my thought process and ability to tackle real-world datasets, including those relevant to OpenSanctions.
 
 ## How I Work
 
-- I use AI-assisted tools such as GitHub Copilot, ChatGPT, and Phind to explore solutions and clarify concepts quickly.
-- All work is manually reviewed to ensure correctness and maintainability.
+I use AI-assisted tools such as GitHub Copilot, ChatGPT, and Phind to explore solutions quickly. These tools help me test ideas and write maintainable code, but all work is manually reviewed to ensure correctness.
+
+## How to Run
+
+From the root of this repo:
+
+```bash
+python portfolio/example_csv_crawler.py
+python portfolio/ihk_gewerbe_crawler.py
+python portfolio/test_crawler.py
+```
+Expected output:
+
+- example_csv_crawler.py prints a few rows of the Berlin Beteiligungsbericht CSV.
+- ihk_gewerbe_crawler.py prints the first row of the IHK CSV.
+- test_crawler.py prints "Hello Zavod! This is my test crawler script."
+
+## Notes
+
+This is a learning-focused repository, primarily aimed at showing my approach and progress. It is intended for review by the OpenSanctions team and others interested in my practical skills.
 
 ## Next Steps
 
-- Extend existing crawlers into full Zavod-style scrapers.
-- Experiment with more complex datasets, including JSON and API sources.
-- Document lessons learned and improvements iteratively.
-
-## How to Run Crawlers
-
-For usage instructions, see [portfolio/README.md](portfolio/README.md).
+- Extend existing crawlers into full Zavod-style scrapers for structured data ingestion.
+- Experiment with more complex datasets (JSON, APIs).
+- Document lessons learned and improvements iteratively to show growth over time.
